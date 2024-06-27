@@ -32,7 +32,7 @@ namespace CICD.TEST
 		[TestCategory("Empleados")]
 		public void TraerEmpleadosTest()
 		{
-			Assert.IsTrue(empleados.TraerEmpleados().Count() == 3);
+			Assert.IsTrue(false);
 		}
 
 		[TestMethod]
